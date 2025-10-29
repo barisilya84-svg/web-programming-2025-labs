@@ -1,0 +1,41 @@
+.workout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.workout__columns {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 30%;
+    gap: 30px
+}
+
+.workout__header {
+    font-size: 64px;
+}
+
+.workout__text {
+    font-size: 36px;
+    color: #616161
+}
+
+.workout__btn {
+    padding: 10px 20px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fad007;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    /* transition: all 0.3s ease; */
+}

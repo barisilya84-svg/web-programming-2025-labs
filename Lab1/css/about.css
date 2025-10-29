@@ -1,0 +1,52 @@
+.about__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+
+.about__text {
+    width: 600px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__flex {
+    display: flex;
+}
+
+.about__item{
+    margin: 30px;
+}
+.about__item h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about__item p {
+    color: #39393B;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+} 
+
+.about__item h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.about__item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.about__item span {
+    color: #fad007;
+}
+

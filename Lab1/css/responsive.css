@@ -1,0 +1,129 @@
+/* ===== АДАПТИВНОСТЬ ===== */
+
+/* Планшеты и средние экраны */
+@media (max-width: 768px) {
+    .header__nav {
+        display: none;
+    }
+    
+    .header__actions {
+        gap: 10px;
+    }
+    
+    .header__btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .hero__container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    .hero__title {
+        font-size: 36px;
+    }
+    
+    .hero__actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero__btn {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .hero__stats {
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .hero__image-placeholder {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .hero__image-text {
+        font-size: 60px;
+    }
+    
+    .cards__grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .cards__title {
+        font-size: 28px;
+    }
+    
+    .footer__content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .footer__bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+/* Мобильные устройства */
+@media (max-width: 480px) {
+    .header__container {
+        padding: 10px 15px;
+    }
+    
+    .hero {
+        padding: 100px 0 60px;
+    }
+    
+    .hero__title {
+        font-size: 28px;
+    }
+    
+    .hero__description {
+        font-size: 16px;
+    }
+    
+    .cards {
+        padding: 60px 0;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+    
+    .footer {
+        padding: 40px 0 15px;
+    }
+}
+
+/* Очень маленькие экраны */
+@media (max-width: 360px) {
+    .header__container,
+    .hero__container,
+    .cards__container,
+    .footer__container {
+        padding: 0 15px;
+    }
+    
+    .hero__title {
+        font-size: 24px;
+    }
+    
+    .hero__stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .cards__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .card {
+        padding: 15px;
+    }
+}

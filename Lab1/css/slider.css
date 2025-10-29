@@ -1,0 +1,29 @@
+.slider {
+  overflow: hidden;
+  max-width: 1520px;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.slider-track {
+  display: flex;
+  gap: 200px;
+  animation: scroll 7s linear infinite;
+  will-change: transform;
+}
+
+.slide {
+  flex: 0 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.slider:hover .slider-track {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-104%); }
+}
