@@ -19,7 +19,7 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-.slider:hover .slider-track {
+.slider:hover .slider__track {
   animation-play-state: paused;
 }
 
@@ -28,3 +28,4 @@
   100% { transform: translateX(-104%); }
 
 }
+
