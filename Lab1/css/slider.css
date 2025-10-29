@@ -5,7 +5,7 @@
   margin: 2rem 0;
 }
 
-.slider-track {
+.slider__track {
   display: flex;
   gap: 200px;
   animation: scroll 7s linear infinite;
@@ -26,4 +26,5 @@
 @keyframes scroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-104%); }
+
 }
