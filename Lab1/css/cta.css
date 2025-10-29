@@ -1,4 +1,4 @@
-.cta-section {
+.cta__section {
   background: #FAD007;
   text-align: center;
   padding: 4rem 4rem;
@@ -6,26 +6,26 @@
   width: 1240px;
 }
 
-.cta-content {
+.cta__content {
   max-width: 800px;
   margin: 0 auto;
   color: #000;
 }
 
-.cta-content h2 {
+.cta__content h2 {
   font-size: 2rem;
   font-weight: 800;
   margin-bottom: 1rem;
 }
 
-.cta-content p {
+.cta__content p {
   font-size: 1rem;
   color: #000000;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
 
-.cta-btn {
+.cta__btn {
   background: #000000;
   color: #ffffff;
   border: none;
@@ -36,15 +36,16 @@
   cursor: pointer;
 }
 
-.cta-btn:hover {
+.cta__btn:hover {
   background: #333333;
 }
 
-.cta-features {
+.cta__features {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
   font-size: 0.9rem;
   color: #111;
+
 }
