@@ -1,0 +1,37 @@
+.features__container {
+    width: 100%;
+
+}
+
+.features__header {
+    padding: 10%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features__subtitle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #333333;
+    border: 2px solid #000000;
+    font-size: 14px;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.features__title {
+    font-size: 58px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.features__description {
+    font-size: 20px;
+    color: #333333;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
